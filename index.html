@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MC Moving</title>
+
+<style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f8fbff; color:#0a2647;}
+    header { background:#0a57d6; padding:20px; display:flex; align-items:center; color:white;}
+    header h1 { margin-left:15px; font-size:28px; }
+    nav { text-align:center; background:white; padding:15px; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    nav a { margin:0 15px; text-decoration:none; font-weight:bold; color:#0a57d6; }
+    section { max-width:1100px; margin:auto; padding:50px 25px; line-height:1.6;}
+    .hero { text-align:center; }
+    .hero img { width:100%; max-height:450px; object-fit:cover; border-radius:8px; }
+    .btn { background:#0a57d6; color:white; padding:12px 25px; border-radius:5px; display:inline-block; margin-top:15px; text-decoration:none;}
+    .services img { width:100%; border-radius:8px; margin-top:20px;}
+    form { background:white;padding:30px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+    input, textarea { width:100%;padding:12px;margin:10px 0;border:1px solid #ccc;border-radius:5px;}
+    button { background:#0a57d6;color:white;border:none;padding:12px 20px;border-radius:5px;font-size:16px;cursor:pointer;}
+    footer { background:#0a57d6;color:white;text-align:center;padding:25px;margin-top:50px;}
+</style>
+</head>
+
+<body>
+
+<!-- LOGO (SVG) -->
+<header>
+<svg width="60" height="60" viewBox="0 0 200 200" fill="white">
+<rect x="10" y="60" width="180" height="100" rx="15" stroke="white" stroke-width="10" fill="none"/>
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="55" font-weight="bold" fill="white">MC</text>
+</svg>
+<h1>MC Moving</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#quote">Get a Quote</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1581091870627-3f88f1a2bbdd?auto=format&fit=crop&w=1200&q=80" alt="Moving Truck">
+    <h2>Professional Moving Services in Ottawa</h2>
+    <p>Fast, reliable, fully insured movers serving all of Ottawa and surrounding areas.</p>
+    <a class="btn" href="#quote">Request a Quote</a>
+</section>
+
+
+<section id="about">
+    <h2>Why Choose MC Moving?</h2>
+    <p>At MC Moving, we pride ourselves on providing stress-free moving experiences. 
+    Whether it's residential or commercial, our trained team ensures your belongings are safe every step of the way.</p>
+    <ul>
+        <li>✔ Fully insured & trusted</li>
+        <li>✔ Friendly trained movers</li>
+        <li>✔ Fast response times</li>
+        <li>✔ Affordable pricing</li>
+    </ul>
+</section>
+
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <p>We offer complete moving solutions tailored to your needs.</p>
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Moving Services">
+    <ul>
+        <li>Home & Apartment Moves</li>
+        <li>Commercial & Office Relocation</li>
+        <li>Packing & Unpacking Services</li>
+        <li>Furniture Assembly</li>
+        <li>Local & Long Distance</li>
+    </ul>
+</section>
+
+
+<section id="quote">
+    <h2>Request a Quote</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Moving From" required>
+        <input type="text" placeholder="Moving To" required>
+        <textarea rows="5" placeholder="Tell us about your move..." required></textarea>
+        <button type="submit">Send Quote Request</button>
+    </form>
+</section>
+
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 <b>613-725-4269</b></p>
+    <p>Email: info@mcmoving.ca (you can change this later)</p>
+</section>
+
+
+<footer>
+    <p>© 2025 MC Moving | Professional Moving Services | Fully Insured | Ottawa, Canada</p>
+</footer>
+
+</body>
+</html>
